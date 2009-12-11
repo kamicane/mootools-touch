@@ -2,12 +2,11 @@
 ---
 
 name: Touch
-version: 0.1
-description: Simple drag implementation that works with standard-sized browsers and hooks with mobile safari touch events.
-license: MooTools MIT-Style License (http://mootools.net/license.txt)
+description: Class to aid the retrieval of the cursor movements
+license: MIT-Style License (http://mootools.net/license.txt)
 copyright: Valerio Proietti (http://mad4milk.net)
 authors: Valerio Proietti (http://mad4milk.net)
-requires: Core/1.2.4: *
+requires: core:1.2.4:*
 provides: Touch
 
 ...
@@ -109,3 +108,5 @@ var Touch = new Class({
 	}
 	
 });
+
+Touch.build = "%build%";

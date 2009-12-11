@@ -1,4 +1,20 @@
 name: Touch
+
+web: [mad4milk.net](http://mad4milk.net)
+
+description: Class to aid the retrieval of the cursor movements
+
+authors: [Valerio Proietti](http://mad4milk.net)
+
+license: [MIT License](http://mootools.net/license.txt)
+
+copyright: &copy; [Valerio Proietti](http://mad4milk.net)
+
 author: kamicane
+
 category: Interface
+
 tags: [drag, drop]
+
+sources:
+  - "Source/Touch.js"
