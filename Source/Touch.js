@@ -5,8 +5,7 @@ name: Touch
 description: Class to aid the retrieval of the cursor movements
 license: MIT-Style License (http://mootools.net/license.txt)
 copyright: Valerio Proietti (http://mad4milk.net)
-authors: Valerio Proietti (http://mad4milk.net)
-requires: core:1.2.4:*
+requires: [Core/MooTools, Core/Array, Core/Function, Core/Number, Core/String, Core/Class, Core/Events, Core/Element]
 provides: Touch
 
 ...
