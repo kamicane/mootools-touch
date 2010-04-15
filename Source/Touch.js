@@ -72,14 +72,14 @@ var Touch = new Class({
 	move: function(event){
 		this.preventDefault(event);
 		
-		this.hasDragged = true;
-		
 		var page = this.getPage(event);
 		
 		this.deltaX = page.pageX - this.startX;
 		this.deltaY = page.pageY - this.startY;
 		
-		this.fireEvent('move', [this.deltaX, this.deltaY]);
+		this.hasDragged = !(this.deltaX === 0 && this.deltaY === 0);
+		
+		if (this.hasDragged) this.fireEvent('move', [this.deltaX, this.deltaY]);
 	},
 	
 	end: function(event){
